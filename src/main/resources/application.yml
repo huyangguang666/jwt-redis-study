@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost/token_demo?serverTimezone=UTC&characterEncoding=utf8
+      username: root
+      password: 123456
