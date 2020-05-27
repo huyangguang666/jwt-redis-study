@@ -5,6 +5,7 @@ import com.practice.jwtredisstudy.annotation.PassToken;
 import com.practice.jwtredisstudy.utils.ConstantUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
@@ -15,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 import java.lang.reflect.Method;
 
+@Component
 public class AuthorizationInterceptor implements HandlerInterceptor {
 
     //存放授权信息的Header名称，默认是Authorization

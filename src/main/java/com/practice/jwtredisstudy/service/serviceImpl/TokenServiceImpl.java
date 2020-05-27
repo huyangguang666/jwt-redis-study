@@ -1,8 +1,9 @@
-package com.practice.jwtredisstudy.service;
+package com.practice.jwtredisstudy.service.serviceImpl;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.practice.jwtredisstudy.domain.User;
+import com.practice.jwtredisstudy.service.TokenService;
 import org.springframework.stereotype.Service;
 
 /**

@@ -43,7 +43,7 @@ public class Swagger2Config {
     }
 
     private ApiInfo apiInfo() {
-        Contact contact = new Contact("胡炀广", "https://www.baidu.com", "861279237@qq.com");
+        Contact contact = new Contact("胡炀广", "https://github.com/huyangguang666", "861279237@qq.com");
         return new ApiInfoBuilder()
                 .title("胡炀广的小demo")
                 .description("token-redis demo")

@@ -15,7 +15,7 @@ public class ConstantUtils {
     /**
      * redis存储token设置的过期时间
      */
-    public static final Integer TOKEN_EXPIRE_TIME = 60 * 2;
+    public static final Integer TOKEN_EXPIRE_TIME = 60 * 60;
 
     /**
      * 设置可以重置token过期时间的时间界限
