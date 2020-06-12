@@ -25,7 +25,7 @@ import java.util.List;
 public class Swagger2Config {
 
     @Bean
-    public Docket docketCreat() {
+    public Docket docketCreate() {
         ParameterBuilder parameterBuilder = new ParameterBuilder();
         List<Parameter> parameters = new ArrayList<>();
         parameterBuilder.name("Authorization").description("token授权")
